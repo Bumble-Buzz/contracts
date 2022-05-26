@@ -1,0 +1,27 @@
+
+sale price: 1
+marketplace: 2%, 0.02, 0.98
+collection reflection: 2%, 0.0196, 0.9604
+collection commission: 1%, 0.009604, 0.950796
+collection incentive: 0%
+marketplace incentive: 0%
+Final profit (UI): 0.9508
+
+
+sale price: 1
+marketplace: 2%, 0.02, 0.98
+collection reflection: 2%, 0.0196, 0.9604
+collection commission: 1%, 0.009604, 0.950796
+collection incentive: 2%, 0.01901592, 0.96981192
+marketplace incentive: 0%
+Final profit (UI): 0.9698
+
+
+sale price: 1
+marketplace: 2%, 0.02, 0.98
+collection reflection: 2%, 0.0196, 0.9604
+collection commission: 1%, 0.009604, 0.950796
+collection incentive: 2%, 0.01901592, 0.96981192
+marketplace incentive: 3% 0.029094358, 0.998906278
+Final profit (UI): 0.9989
+
