@@ -3,7 +3,7 @@ const hre = require("hardhat");
 
 let ACCOUNTS;
 let CONTRACT_FACTORY;
-let CONTRACT = { address: '0x6679CdE5195A15bacbDDDAeBb170d865DBA7838B' };
+let CONTRACT = { address: '0x64e68E8b72302DB8F9D16c77CB03FdaF70ab8FdA' };
 // let CONTRACT;
 let BANK_CONTRACT;
 let SALE_CONTRACT;
@@ -27,18 +27,9 @@ async function main() {
   // console.log("Updated AvaxTrade with contracts:", BANK_CONTRACT.address, SALE_CONTRACT.address, COLLECTION_ITEM_CONTRACT.address);
   // await avaxTradeNft();
   // console.log("AvaxTradeNft deployed to:", NFT_CONTRACT.address);
+
   // await SampleErc721();
   // console.log("Sample NFT Contract deployed to:", SAMPLE_NFT_CONTRACT.address);
-
-
-  // update AvaxTrade with sibling contracts
-  // const avaxTradeContract = await ethers.getContractAt("AvaxTrade", '0x1f8700f3D074a8999D7ef9a0e292542C1a3463E4');
-  // console.log('contracts', await avaxTradeContract.connect(ACCOUNTS[0]).getContracts());
-  // await avaxTradeContract.connect(ACCOUNTS[0]).setContracts(
-  //   '0xB75CE57645626d3511Bd933f39e4F652d9BfD5E3', '0x5D20E204a01C8156b0E4b877a2339904cfd8735a', '0xDf3bc1dCBBF6220C97c04191DEf9560Cb3A47829'
-  // );
-  // console.log('contracts', await avaxTradeContract.connect(ACCOUNTS[0]).getContracts());
-
   // await TestErc721();
 }
 

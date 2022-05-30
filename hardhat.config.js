@@ -33,8 +33,8 @@ module.exports = {
     }
   },
   mocha: {
-    // timeout: 100000000,
-    enableTimeouts: false
+    timeout: 100000000,
+    // enableTimeouts: false
   },
   // gasReporter: {
   //   enabled: true

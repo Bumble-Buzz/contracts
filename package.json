@@ -1,8 +1,7 @@
 {
-  "name": "contracts",
+  "name": "@bumblebuzz/contracts",
   "version": "0.1.0",
   "description": "BumbleBuzz NFT Marketplace EXM smart contracts",
-  "private": true,
   "scripts": {
     "package-lock": "npm i --package-lock-only",
     "hh-compile": "npx hardhat compile",
@@ -41,5 +40,8 @@
     "eslint": "7.32.0",
     "keythereum": "^1.2.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "files": [
+    "artifacts/"
+  ]
 }
