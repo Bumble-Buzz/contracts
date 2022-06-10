@@ -15,22 +15,22 @@ let TEST_NFT_CONTRACTS;
 async function main() {
   await getAccounts();
 
-  // await avaxTrade();
-  // console.log("AvaxTrade deployed to:", CONTRACT.address);
-  // await bank();
-  // console.log("Bank deployed to:", BANK_CONTRACT.address);
-  // await sale();
-  // console.log("Sale deployed to:", SALE_CONTRACT.address);
+  await avaxTrade();
+  console.log("AvaxTrade deployed to:", CONTRACT.address);
+  await bank();
+  console.log("Bank deployed to:", BANK_CONTRACT.address);
+  await sale();
+  console.log("Sale deployed to:", SALE_CONTRACT.address);
   await collectionItem();
   console.log("Collection Item deployed to:", COLLECTION_ITEM_CONTRACT.address);
-  // await updateAvaxTrade();
-  // console.log("Updated AvaxTrade with contracts:", BANK_CONTRACT.address, SALE_CONTRACT.address, COLLECTION_ITEM_CONTRACT.address);
-  // await avaxTradeNft();
-  // console.log("AvaxTradeNft deployed to:", NFT_CONTRACT.address);
+  await updateAvaxTrade();
+  console.log("Updated AvaxTrade with contracts:", BANK_CONTRACT.address, SALE_CONTRACT.address, COLLECTION_ITEM_CONTRACT.address);
+  await avaxTradeNft();
+  console.log("AvaxTradeNft deployed to:", NFT_CONTRACT.address);
 
   // await SampleErc721();
   // console.log("Sample NFT Contract deployed to:", SAMPLE_NFT_CONTRACT.address);
-  // await TestErc721();
+  await TestErc721();
 }
 
 // todo use actual account when deploying to mainnet chain
